@@ -1,0 +1,63 @@
+html,
+body{
+    margin: 0;
+}
+
+
+.content{
+    background-color: rgb(193, 193, 193);
+    height: 400px;
+    width: 650px;
+    margin: 100px auto auto auto;
+    display: flex;    
+    box-shadow: 0 3px 6px -4px rgb(0 0 0 / 12%), 0 6px 16px 0 rgb(0 0 0 / 8%), 0 9px 28px 8px rgb(0 0 0 / 5%);
+    border-radius: 8px;
+    overflow: hidden;
+}
+.content-left{
+    background: linear-gradient(
+        to right bottom,
+        rgb(40, 99, 154)0%
+        rgb(43, 119, 170)100%
+    );
+    flex-basis: 50%;
+    padding: 40px;
+}
+
+.content-right{
+    background: #fff;
+    flex-basis: 50%;
+    padding: 40px;
+}
+.content-left h3{
+    color: #fff;
+}
+.content-left-item{
+    color: #fff;
+    margin-top: 30px;
+}
+.content-left-item-title{
+    color: #fff;
+    align-items: center;
+}
+.content-left-item-title span{
+    margin-left: 2px;
+}
+.content-left-item-desc{
+    font-size: 14px;
+    margin-top: 4px;
+}
+input{
+    border: none;
+    background: rgb(253, 250, 250);
+    outline: none;
+}
+button{
+    width: 100%;
+    border: none;
+}
+button:hover{
+    background: white ;
+    cursor: pointer;
+}
+
